@@ -13,11 +13,7 @@
 # limitations under the License.
 #
 
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/AdAway)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/KernelAdiutor)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/MiXplorer)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/mnml)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/NovaLauncher)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Phonograph)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/substratum)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/SuperSU)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/EvieLauncher)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/ViaBrowser)
